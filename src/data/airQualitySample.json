@@ -1,0 +1,40 @@
+{
+  "currentData": {
+    "timestamp": "2025-10-03T12:00:00Z",
+    "aqi": { "value": 72, "category": "Moderate", "description": "Acceptable; some pollutants may be a concern." },
+    "pollutants": {
+      "pm25": { "value": 22.3, "unit": "µg/m³" },
+      "pm10": { "value": 45.1, "unit": "µg/m³" },
+      "o3":   { "value": 68, "unit": "µg/m³" },
+      "no2":  { "value": 21, "unit": "µg/m³" },
+      "so2":  { "value": 7,  "unit": "µg/m³" },
+      "co":   { "value": 0.4, "unit": "mg/m³" }
+    },
+    "weather": {
+      "temperature": 23,
+      "humidity": 58,
+      "windSpeed": 3.4,
+      "uvIndex": 5
+    },
+    "placeholders": {
+      "nasaTempo": [{ "time": "T+0", "no2_column": 0.0002 }],
+      "groundAQI": [{ "station": "Downtown", "aqi": 74 }],
+      "arduinoSensors": [{ "id": "sensor-12", "pm25": 18.4, "pm10": 35.2 }]
+    }
+  },
+  "forecast": [
+    { "time": "2025-10-03T13:00:00Z", "aqi": 76 },
+    { "time": "2025-10-03T14:00:00Z", "aqi": 80 },
+    { "time": "2025-10-03T15:00:00Z", "aqi": 85 },
+    { "time": "2025-10-03T16:00:00Z", "aqi": 78 },
+    { "time": "2025-10-03T17:00:00Z", "aqi": 70 }
+  ],
+  "mapData": [
+    { "latitude": 40.7128, "longitude": -74.0060, "aqi": 78, "pm25": 23.1 },
+    { "latitude": 40.7228, "longitude": -74.0160, "aqi": 66, "pm25": 17.8 },
+    { "latitude": 40.7028, "longitude": -74.0010, "aqi": 95, "pm25": 35.5 },
+    { "latitude": 40.7357, "longitude": -74.1724, "aqi": 54, "pm25": 12.4 }
+  ]
+}
+
+
